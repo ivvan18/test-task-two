@@ -1,0 +1,15 @@
+.error {
+    background-color: rgba(200, 0, 0, 0.2);
+    border-left: 4px solid rgba(200, 0, 0, 0.7);
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+#requestButton:hover {
+	cursor: pointer;
+}
