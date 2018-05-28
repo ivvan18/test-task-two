@@ -82,11 +82,11 @@ function hideError() {
 
 
 
-button.onclick = () => {
+button.addEventListener('onclick', () => {
     requestServer(apiLink)
         .then(parseJsonAndShow)
         .catch(showError);
-}
+});
 
 
 
